@@ -6,23 +6,35 @@
   font-size: 64px;
   background-color: #326FC0;
   font-family: monospace;
-  width: 100%;
+  /* width: 100%; */
+  color: white;
+  /* padding-left: 30px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .head {
   font-size: 32px;
   font-weight: bold;
   font-family: monospace;
-  padding-top: 20px;
-  padding-bottom: 5px;
+  padding-top: 50px;
+  /* padding-bottom: 5px; */
+  padding-left: 30px;
+  margin-bottom: 10px;
 }
 
 .imgdesc {
   font-size: 16px;
   font-style: italic;
   font-weight: lighter;
-  text-align: justify;
   font-family: monospace;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-right: 100px;
+  text-align: center;
+  width: 500px;
 }
 
 .main {
@@ -37,16 +49,88 @@
 .foot {
   background-color: #326FC0;
   font-family: monospace;
-  text-align: right;
+  text-align: center;
   font-size: 25px;
+  color: white;
+  padding-top: 40px;
+  height: 150px;
 }
 
 .text {
   font-weight: bold;
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-right: 100px;
+  margin-bottom: 50px;
 }
 
 .memes {
   font-size: 16px;
   font-style: italic;
   font-weight: lighter;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  padding-right: 100px;
+}
+
+.para {
+  margin-left: 30px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 60%;
+  height: calc(70vh - 2vh);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* .images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.memes1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.memes2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.memes3 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.memes4 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.IN {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.credits {
+  padding: 40px;
+  font-size: 16px;
+}
+
+.memedesc {
+  padding: 50px;
+  margin-top: calc(5vh + 100px);
+  width: 400px;
+  height: 500px;
 }
